@@ -1,0 +1,604 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=PT+Sans&display=swap');
+
+* { 
+    margin: 0;
+    padding: 0;
+    background-color: #24252A ;
+    box-sizing: border-box;
+}    
+
+header { 
+    display: flex;
+    justify-content: space-between ;
+    align-items: center; 
+    padding: 10px 0px 0px 0px ;
+    top: 0;
+    z-index: 1200;
+    position: fixed;
+    width: 100%;
+    transition: top 200ms;
+    border: 1px solid black;
+}
+    
+.logo1{ 
+
+    height: 50px;
+    opacity: calc(90%);
+    border: 1px solid;
+    border-radius: 10%;
+    margin-left: 20px;
+}    
+
+.logo-text{ 
+    color: gold;
+    font-size: 2em;
+    margin: 0px 0px 0px -368px;
+    font-family: 'Great Vibes' ;
+    text-shadow: 2px 2px black;    
+}
+
+
+
+li { 
+    list-style: none;
+    display: inline-block;
+}    
+
+
+header> nav > ul > li >  a { 
+    text-decoration: none;  
+    color: rgb(24, 1, 1);
+    background-color: rgb(246, 244, 240);
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'PT Sans', sans-serif;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin: 10px;
+}    
+
+.button1 { 
+    text-decoration: none;  
+    background-color: rgb(201, 191, 191) ;
+    color: rgb(24, 1, 1);
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: 'PT Sans', sans-serif;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 0px;
+    margin: -2px 20px 10px 10px;
+}    
+
+.button1:hover  { 
+    background-color: rgb(122, 175, 100) ;
+    cursor: pointer;
+    transition: 0.3s ease-out;
+}
+
+header> nav > ul > li > a:hover  { 
+    background-color: rgb(122, 175, 100) ;
+    transition: 0.3s ease-out;
+    
+}
+
+.cls1 {
+    position: relative;
+    margin: 66px 20px 0px 0px;
+    /* border: 1px solid black; */
+    height: 500px;
+    width: 100%;
+    
+}
+
+.cls1::before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-image: url(Images/pizza_image.jpg) ; 
+    opacity: 0.6;
+    
+}
+
+
+.p5 { 
+    position: absolute;
+    top: 2%;
+    left: 0%;
+    color:hsla(64, 86%, 51%, 0.888);
+    font-size: 90px;
+    background: none;
+    font-weight: bolder;
+    font-family: 'Great Vibes', sans-serif;
+    text-shadow: 5px 5px black;
+}
+
+.p6 {
+    position: absolute;
+    top: 25%;
+    left: 12%;
+    color: hsl(64, 73%, 47%);
+    font-size: 45px;
+    background: none;
+    font-weight: bolder;
+    font-family: 'Great Vibes', sans-serif;
+    text-shadow: 5px 5px black;
+    
+}
+
+    
+
+    
+.colorh1 > div {
+    height: 150px;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-color: hsl(134, 68%, 50%);
+    
+}
+
+.div10 { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.button2 { 
+    color: black;
+    background-color: rgb(96, 225, 126);
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 14px;
+    font-family: 'PT Sans', sans-serif;
+    position: relative;
+    margin-right:100px;
+    margin-left:100px;
+    text-decoration: none;
+    border: 4px solid black;
+}
+
+
+/* .button2::after, .button2::before{
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1 ;
+    width: calc(100% -6px);
+    height: calc(100% -6px);
+    transition: transform 0.3s ease;
+}    
+
+.button2:hover::after{ 
+    transform: translate(-6px, -6px);
+}
+.button2:hover::before{ 
+    transform: translate(6px, 6px);
+} */
+
+.button2:hover{ 
+    border: 6px solid black;
+    box-shadow: 2px solid black;
+    transform: translate(2px, 2px);
+    transition: 0.1s ease-out;
+    background-color: rgb(154, 244, 175);
+}
+
+    
+    
+    
+
+
+
+
+.gridbox1 { 
+    color: aliceblue;
+    display: grid;
+    /* border: 1px solid white; */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
+    justify-content: stretch;
+    align-items: stretch;
+    text-align: center;
+}
+
+
+.item1{
+    /* background-color: hsl(240, 82%, 65%); */
+    grid-column: 1/5;
+    font-family: 'PT Sans', sans-serif;
+    text-shadow: 5px 5px black;
+    color:hsla(64, 86%, 51%, 0.888);
+    /* border: 1px solid white; */
+}
+
+.pfastfood1  { 
+    padding-top: 31px;
+    padding-bottom: 37px;
+    font-size: 18px;
+}
+
+.pfastfood2 {
+    font-size: 40px;
+    
+}    
+
+
+
+.item2{
+    background-color: hsl(80, 60%, 3%);
+    grid-column: 1/2;
+    grid-row: 2/6;
+    background-image: url(images/item2.jpg) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 10px solid black;
+    
+    /* border: 1px solid white;  */
+    
+    border-top: 20px solid hsl(80, 60%, 3%);
+    border-bottom: 20px solid hsl(80, 60%, 3%);
+}
+
+
+.item3{
+    background-color: hsl(80, 60%, 3%);
+    grid-column: 2/3;
+    grid-row: 2/6;
+    background-image: url(images/item3.jpg) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 10px solid black;
+    /* border: 1px solid white; */
+    border-top: 20px solid hsl(80, 60%, 3%);
+    border-bottom: 20px solid hsl(80, 60%, 3%);
+}
+
+
+
+.item4{
+    grid-column: 3/4;
+    grid-row:2/6;
+    background-image: url(images/item4.jpg) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 10px solid black;
+    background-color: hsl(80, 60%, 3%);
+    /* border: 1px solid white; */
+    border-top: 20px solid hsl(80, 60%, 3%);
+    border-bottom: 20px solid hsl(80, 60%, 3%);
+}
+
+
+.item5 {
+    grid-column: 4/5;
+    grid-row:2/6;
+    background-image: url(images/item5.jpg) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 10px solid black;
+    background-color: hsl(80, 60%, 3%);
+    border-top: 20px solid hsl(80, 60%, 3%);
+    border-bottom: 20px solid hsl(80, 60%, 3%);
+}
+/*====================================================================*/
+
+.between2grid { 
+    margin-top: 66px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    text-shadow: 1px 1px black;
+    color:hsla(64, 86%, 51%, 0.888);
+    text-align: center;
+    
+}
+/*====================================================================*/
+.gridbox2 { 
+    color: aliceblue;
+    display: grid;
+    /* border: 1px solid white; */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
+    justify-content: stretch;
+    align-items: stretch;
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+.item-top1{
+    background-color: #24252A;
+    grid-column: 2/3;
+    grid-row: 1/3;
+    background-image: url(images/item-top.jpg) ;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #24252A;
+    border: 15px solid black;
+
+}
+
+
+.item-top2{
+    background-color: #24252A;
+    grid-column: 3/4;
+    grid-row: 1/3;
+    background-image: url(images/item-top2.jpg) ;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #24252A;
+    border: 15px solid black;
+
+}
+    
+    
+    
+
+
+
+.item-middle{
+    background-color: #24252A;
+    grid-column: 2/4;
+    grid-row: 3/5;
+    /* background-image: url(images/item2.jpg) ; */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border-top: 30px solid #000000; */
+}
+
+.pthai {
+    
+    font-family: 'Great vibes', sans-serif;
+    color:hsla(64, 86%, 51%, 0.888);
+    font-size: 80px;
+    text-shadow: 5px 5px black;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.item-left{
+    background-color: #020202;
+    grid-column: 1/2;
+    grid-row: 2/6;
+    background-image: url(images/item-left.jpg) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 15px solid black;
+    
+}
+
+
+
+.item-right{
+    grid-column: 4/5;
+    grid-row:2/6;
+    background-image: url(images/item-right.jpg) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #24252A);
+    border: 15px solid black;
+    
+}
+
+
+.item-bottom1 {
+    grid-column: 2/3;
+    grid-row:5/7;
+    background-image: url(images/item-bottom.jpg) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #24252A;
+    border: 15px solid black;
+}
+.item-bottom2 {
+    grid-column: 3/4;
+    grid-row:5/7;
+    background-image: url(images/item-bottom2.jpg) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #24252A;
+    border: 15px solid black;
+}
+
+.our-story {
+    border: 1px solid #24252A;
+    width: 100%;
+    height: 675px;
+    position: relative;
+    margin-top: 80px;
+}
+
+.our-story::before { 
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(images/our-story.jpg);
+    opacity: 0.25;
+}
+
+.p-story1 {
+    position: relative;
+    margin-top: 37px;
+    background: none;
+    font-family: 'Great Vibes', sans-serif;
+    font-size: 87px;
+    text-shadow: 5px 5px black;
+    color: hsla(64, 86%, 51%, 0.888);
+    text-align: center;
+}
+
+.p-story2 {
+    position: relative;
+    margin-top: 66px;
+    background: none;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    text-shadow: 1px 1px black;
+    color: hsl(0deg 0% 100%);
+    text-align: center;
+}
+
+.chefs { 
+    position: relative;
+    height: 411px;
+    width: 441px;
+    float: right;
+    margin: 10px;
+    border: 2px solid black;
+    box-shadow: 0 0 5px black;
+}
+
+/*     
+========================================================================
+                            footer
+========================================================================*/
+
+.footer{ 
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    flex-wrap: wrap;
+    margin-bottom: 6rem;
+}
+
+.footer-heading{
+    display: flex;
+    flex-direction: column;
+    margin-right: 8rem;
+}
+
+.footer-heading h2 {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+
+}
+
+.footer-heading a {
+    color: white; 
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+
+.footer-heading a:hover{ 
+    color: goldenrod;
+    transition: 0.3s ease-out;
+}
+
+.footer-email-form h2{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+#footer-email{
+    background-color: white;
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+}
+
+#footer-email::placeholder{
+    color: grey
+}
+
+#footer-email-btn{
+    display: block;
+    margin-top: 4px;
+    height: 40px;
+    width: 100px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    background-color: #F9423D;
+    color:white;
+    font-size:1rem;
+}
+
+#footer-email-btn:hover{
+    cursor: pointer;
+    background-color: #337AF1;
+    transition: all 0.4s ease-out;
+}
+
+.footer-3{
+    text-align: center;
+}
+    
+.footer-3{ 
+    color: none;
+}
+
+
+.end-part{ 
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid red; */
+    display: flex;
+    background-color: hsl(230, 8%, 20%) ;
+    justify-content: space-around;
+}
+
+h3 > div > div { 
+    background-color: hsl(230, 8%, 50%) ;
+    margin-top: 2rem;
+}
+
+.copyright{ 
+    font-size: 12px;
+    color: white;
+    background-color: hsl(230, 8%, 20%) ;
+}
+
+.end-logo{
+    color: gold;
+    font-size: 2em;
+    font-family: 'Great Vibes' ;
+    text-shadow: 2px 2px black; 
+    background-color: hsl(230, 8%, 20%) ;
+}
+
+
+.contact{
+    font-size: 1rem;
+    color: white;
+    background-color: hsl(230, 8%, 20%) ;
+}
+    
+    
+
+
+
+
+
